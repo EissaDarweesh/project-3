@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500;700&family=Roboto:wght@900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+*{
+margin: 0;
+padding: 0;
+
+}
+body {
+    background-color: white;
+    
+
+}
+
+    /*************start header *************************/
+
+.header {
+    background-color: #c91a17;
+    color: white;
+    height: 80px;
+}
+.header a {
+    float: right;
+    margin-top: 30px;
+    width: 100px;
+  
+}
+ 
+.header p {
+    margin-top: 30px;
+    list-style: none;
+    
+}
+
+
+
+/******************end header ************************/
+
+
+
+/******************start slider ************************/
+.carousel-indicators li {
+    height: 10px;
+    background-color: #c91a17;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.349);
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+
+/******************end slider ************************/
+
+
+
+/**********************start fuetures****************/
+
+.feutuers {
+    margin-top: 40px;
+    background-color: #eee; 
+    border-bottom: 3px solid #c91a17  ;
+
+}
+
+.feutuers i {
+    width: 100px;
+    height: 100px;
+    background-color:#c91a17 ;
+    line-height: 100px;
+    color: white;
+    font-size: 40px;
+
+}
+.feutuers i:hover {
+    transform: scale(1.1)
+
+}
+ 
+.feutuers h4 {
+    display: inline-block;
+    color: #c91a17;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.feutuers p {
+    color: black;
+    line-height: 1.8;
+}
+.feutuers h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    
+
+}
+
+
+
+
+
+/**********************end fuetures****************/
+
+
+
+/**********************start our team****************/
+
+.our-team {
+    background-color: #eee;
+    padding: 20px;
+    background-image: url(../images/images\ \(42\).jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid #c91a17  ;
+}
+
+
+
+
+
+/**********************end our team****************/
+
+
+
+
+
+/**********************start statistic**************/
+
+.statistic {
+    width: 100%;
+    height:650px;
+    background-image: url(../images/back.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom: 3px solid #c91a17  ;
+
+}
+.statistic .overlay {
+    padding-top: 200px;
+    background-color: rgba(0, 0, 0, 0.377);
+    width: 100%;
+    height: 104%;
+}
+
+.statistic .overlay h3 {
+    color: white;
+    
+}
+
+
+.statistic .overlay p {
+    color: white;
+    font-size: 80px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************end statistic***************/
+/**********************start costmer***************/
+
+.our-customers {
+    margin-top: 80px;
+    background-color: #eee;
+    line-height: 200px;
+    background-image: url(../images/images\ \(40\).jfif);
+    border-bottom: 3px solid #c91a17  ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+/**********************end costmer***************/
+
+
+    
+
+
+
+
+
+/**********************start footer***************/
+
+footer {
+    background-color: #c91a17;
+    padding-top: 30px;
+    background-image: url();
+    
+
+}
+
+footer p {
+    color: white;
+}
+footer h3  {
+    color: white;
+}
+
+
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: black;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+/*******************************rnd footer******/
+.jumbotron {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.jumbotron .blog_info {
+    flex: 2;
+
+}
+
+.jumbotron .blog_image {
+    flex: 1;
+
+}
+
+.blog_details p {
+    line-height:2;
+    padding: 10px;
+    
+
+}
+
+.contact .card {
+    background-image: url(../images/images\ 3002.png);
+    
+    background-size: cover;
+}
+
+.modal-content {
+    background-image: url(../images/images\ 3003.png);
+    background-size: cover;
+}
+
+section {
+    background-color: #c91a17;
+    height: 80px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+.courses img:hover {
+
+transform: scale(1.1);
+}
+
+.carousel img {
+    display: block;
+    margin: 10px 10px;
+    height: 380px;
+    
+}
+
+
+
+   
+
+
+
+ 
